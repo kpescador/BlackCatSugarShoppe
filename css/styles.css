@@ -1,0 +1,13 @@
+body {
+      background-color: #D8B9C3;
+      font-family: monospace;
+    }
+    img {
+      height: 200px;
+    }
+    hr {
+      border-style: none;
+      border-top: 10px dotted #827397;
+      width: 75px
+    }
+    
