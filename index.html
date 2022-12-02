@@ -10,7 +10,7 @@
 <body>
   <img src="images/Black Cat Cupcake Image.png" alt="Black Cat Cupcake Image" </s>
   <h1>Black Cat Sugar Shoppe</h1>
-  <h3>Stop and Smell the Flour</h3>
+  <h3 class="subheading">Stop and Smell the Flour</h3>
   <i>
     📍 Lynbrook, NY
     <br>
@@ -33,7 +33,7 @@
 
   <h3>Inquiry Form</h3>
   <h5>We'll contact you shortly regarding your inquiry through your preferred contact method.</h5>
-  <form class="" action="index.html" method="get">
+  <form class="inquiry-form" action="index.html" method="get">
 
     <label for="fullName">Full Name:</label>
     <input type="text" name="fullName" value=""><br>
@@ -42,7 +42,7 @@
     <input type="email" name="email" value=""><br>
 
     <label for="phoneNumber">Phone Number:</label>
-    <input type="text" name="phoneNumber" value=""><br>
+    <input type="text" name="phoneNumber" id="phoneNumber" value=""><br>
 
     <label for="preferredContact">Preferred Method of Contact</label>
     <input type="radio" name="contactMethod" value="email">
@@ -53,7 +53,7 @@
 
     <label for="Message">Message:</label> <br>
     <textarea name="message" rows="8" cols="40"></textarea>
-    <input type="submit" name="" value="Send">
+    <input type="submit" name="submitButton" class="submitButton" value="Send">
 
   </form>
 
